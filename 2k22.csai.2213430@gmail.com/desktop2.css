@@ -1,0 +1,857 @@
+/* html,
+body {
+  width: fit-content;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+} */
+.straight {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.desktop2 {
+  width: 1777px;
+  height: 8687.3px;
+  opacity: 1;
+  background: #ffffff;
+  transform: rotate(0deg); /* This is the correct way to set angle */
+}
+
+.header-light {
+  overflow: hidden;
+  width: 1777px;
+  height: 1042px;
+  position: relative;
+  background-color: #f0f0f0; /* optional */
+}
+
+#header-bg-content {
+  width: 1777px;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  top: 0;
+}
+
+.gradient {
+  width: 1777px;
+  height: 1px;
+  /* background: linear-gradient(to right, #aaa, #fff); */
+  position: absolute;
+  top: 1px;
+}
+
+.rectangle9-img {
+  width: 1775px;
+  height: 930px;
+  position: absolute;
+  top: 3px;
+  left: 1.23px;
+  object-fit: cover; /* ensures image fills the space */
+  z-index: 0;
+}
+.diagonal-strip {
+  position: absolute;
+  bottom: 0;
+  width: 300%;
+  height: 500px;
+  background: white;
+  transform-origin: bottom left;
+}
+
+.left {
+  left: 0;
+  transform: rotate(12deg) translateY(1220px);
+}
+
+.right {
+  right: 0;
+  transform-origin: bottom right;
+  transform: rotate(-12deg) translateY(1220px); /* Or use scaleX(-1) if using same div */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header-light {
+  width: 1777px;
+  height: 1042px;
+  position: relative;
+  background-color: #f0f0f0;
+}
+
+#header-bg-content {
+  width: 1777px;
+  height: 1px;
+  background-color: #ccc;
+  position: absolute;
+  top: 0;
+}
+
+.gradient {
+  width: 1777px;
+  height: 1px;
+  background: linear-gradient(to right, #aaa, #fff);
+  position: absolute;
+  top: 1px;
+}
+
+.rectangle9-img {
+  width: 1775px;
+  height: 930px;
+  position: absolute;
+  top: 3px;
+  left: 1.23px;
+  object-fit: cover;
+  z-index: 0;
+}
+.navbar {
+  width: 1210px;
+  height: 156px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.desktop-menu {
+  position: absolute;
+  top: 53.5px;
+  left: 40px;
+  width: 433px;
+  height: 48px;
+  display: flex;
+  gap: 21px;
+  align-items: center;
+}
+
+.menu-link {
+  height: 48px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-link:hover {
+  text-decoration: underline;
+}
+
+.nav-center {
+  position: absolute;
+  top: 39px;
+  left: 530px;
+  width: 246px;
+  height: 78px;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logon-dark-img {
+  width: 206px;
+  height: 78px;
+  object-fit: contain;
+}
+.nav-right {
+  position: absolute;
+  top: 56.51px;
+  left: 999px;
+  display: flex;
+  gap: 44px;
+  width: 170.96px;
+  height: 40.99px;
+
+  align-items: center;
+  justify-content: center;
+}
+.social-media {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.icon-outline {
+  width: 40.99px;
+  height: 40.99px;
+
+  background-color: transparent;
+}
+/* <style> */
+.hero-light {
+  width: 1440px;
+  margin: 0 auto;
+  padding-top: 240px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.container-1 {
+  width: 819px;
+  height: 335px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  /* background: rgba(200, 200, 255, 0.15);  */
+  box-sizing: border-box;
+}
+/* here textcontetn */
+.text-content {
+  width: 779px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  color: #ffffff;
+}
+
+.headline-block {
+  width: 705px;
+  height: 188px;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline-block h1 {
+  width: 685px;
+  height: 168px;
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 84px;
+  letter-spacing: 0.2px;
+  margin: 0;
+  text-align: center;
+}
+
+.text-content h4 {
+  width: 779px;
+  height: 100px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-content h4 span {
+  width: 759px;
+  height: 80px;
+  display: block;
+}
+
+.padding-bottom {
+  width: 1437px;
+  height: 218px;
+}
+
+.container-2 {
+  width: 276px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: rgba(200, 255, 200, 0.15);
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.action-content {
+  width: 236px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.big-button {
+  width: 236px;
+  height: 52px;
+  display: flex;
+  flex-direction: column;
+}
+
+.master-button {
+  width: 236px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 35px;
+  background-color: #007bff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.text-button {
+  width: 121px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-button span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
+
+.master-button:hover {
+  background-color: #0056b3;
+}
+/* FEATURES SECTION START */
+
+.feature-light-15 {
+  width: 1777px;
+  height: 1362.3px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+.bg-content {
+  width: 1777px;
+  height: 1px;
+  background-color: #ffffff;
+}
+
+.features-content {
+  align-items: center;
+  width: 1777px;
+  height: 1361.3px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+/* Text section */
+.features-text-content {
+  width: 550px;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin: 0 auto;
+}
+
+/* Top heading container */
+.heading2 {
+  width: 216px;
+  height: 75px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 10px;
+  flex-direction: row;
+}
+
+/* Main subheading container */
+.heading4 {
+  width: 550px;
+  height: 100px;
+  padding: 10px;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+/* Main headline */
+.head2 {
+  width: 196px;
+  height: 55px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #252b42;
+  margin: 0;
+}
+
+/* Subheadline */
+.head4 {
+  width: 530px;
+  height: 80px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #374754;
+  margin: 0;
+  /* max-width: 100%; */
+}
+
+/* Items section */
+.item {
+  display: flex;
+  flex-direction: column; /* Vertical flow */
+  gap: 52px;
+  width: 869px;
+  height: 257px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row; /* Horizontal flow */
+  gap: 20px;
+}
+
+.feature-style-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Horizontal center */
+  justify-content: center; /* Vertical center (if inside a fixed-height parent) */
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Or fixed like 300px */
+  height: 100%; /* Or fixed like 300px if vertical centering needed */
+}
+
+.feature-style-1 .icon {
+  margin-bottom: 16px;
+}
+
+.feature-style-1 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #252b42;
+  margin-bottom: 10px;
+}
+
+.feature-style-1 p {
+  font-size: 16px;
+  color: #374754;
+  max-width: 250px; /* Optional: control text width */
+  margin: 0;
+}
+.feature-style-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Or fixed like 300px */
+  height: 100%; /* Or fixed if vertical centering is needed */
+}
+
+.feature-style-3 .icon {
+  margin-bottom: 16px;
+}
+
+.feature-style-3 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #252b42;
+  margin-bottom: 10px;
+}
+
+.feature-style-3 p {
+  font-size: 16px;
+  color: #374754;
+  max-width: 250px;
+  margin: 0;
+}
+
+.feature-style-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically (optional if in fixed-height container) */
+  text-align: center;
+  padding: 20px;
+  width: 100%; /* Or a fixed width like 300px */
+  height: 100%; /* Or set if you want vertical centering */
+}
+
+.feature-style-2 .icon {
+  margin-bottom: 16px;
+}
+
+.feature-style-2 h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #252b42;
+  margin-bottom: 10px;
+}
+
+.feature-style-2 p {
+  font-size: 16px;
+  color: #374754;
+  max-width: 250px;
+  margin: 0;
+}
+
+/* Screen section */
+.screen-content {
+  height: 762.3px;
+  width: 1058.19px;
+  padding: 52px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 1177.34px;
+  height: 658.3px;
+  border-radius: 81.48px;
+  overflow: hidden;
+}
+
+.video-screen {
+  width: 100%;
+  height: 100%;
+  border-radius: 81.48px;
+  object-fit: cover;
+}
+
+/* .playIcon {
+  position: absolute;
+  width: 46.85px;
+  height: 46.85px;
+  top: 306.59px;
+  left: 570.67px;
+  background: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 2;
+} */
+#playIcon {
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  display: flex; /* Initially hidden */
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+  align-self: center;
+}
+/* 
+.video-wrapper {
+  position: relative;
+  display: inline-block;
+} */
+
+/* TESTIMONIAL  */
+/* Main Container */
+.desktop-testimonial {
+  width: 1439px;
+  height: 774px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+/* Thin Background Line */
+#bgcontent {
+  width: 1439px;
+  height: 1px;
+  /* or any design color */
+}
+
+/* Main Content Layout */
+.content {
+  align-items: center;
+  width: 1439px;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  box-sizing: border-box;
+}
+/* start */
+/* #text-content container */
+#testimonial-text-content {
+  width: 305px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* h2 wrapper inside #text-content */
+.h2-wrapper {
+  width: 305px;
+  height: 75px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* Actual text block */
+.text-block {
+  width: 285px;
+  height: 55px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 48px;
+  line-height: 55px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* end */
+
+/* Text Content */
+#testimonial-text-content {
+  height: auto; /* hug content */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+  text-align: center;
+}
+
+#testimonial-text-content h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#testimonial-text-content p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Testimonial Items */
+/* Items container */
+#items {
+  display: flex;
+  flex-direction: column;
+  width: 980px;
+  gap: 21px;
+}
+
+/* Row: horizontal wrapper for testimonial */
+.row {
+  display: flex;
+  width: 980px;
+  gap: 60px;
+}
+
+/* Testimonial card */
+.testimonial-style {
+  display: flex;
+  flex-direction: column;
+  width: 980px;
+  height: 315px;
+  /* background-color: #f9f9f9; */
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Brands section */
+.brands {
+  display: flex;
+  gap: 74px;
+  height: 60px;
+  align-items: center;
+}
+
+.brands img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Testimonial text block (H4-style) */
+.testimonial-text {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  height: 100px;
+  gap: 10px;
+  font-size: 28px;
+  line-height: 28px;
+  color: #333;
+  font-style: open sans;
+}
+
+/* Client info */
+/* Client Container */
+.client {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  width: 145px;
+  height: 55px;
+}
+
+/* Avatar Image */
+.client .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Text Content inside Client */
+.client .text-content {
+  width: 82px;
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* h6 Element */
+.client .text-content h6 {
+  width: 73px;
+  height: 27px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 2px 0;
+  margin: 0;
+}
+
+/* Text Link Section */
+.client .text-link {
+  width: 82px;
+  height: 28px;
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+  color: #555;
+  align-items: center;
+}
+
+/* Action Content */
+/* Action Content Container */
+#action-content {
+  width: 64px; /* as per Figma spec */
+  height: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+}
+
+/* Big Button Group (contains master buttons) */
+.big-button-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  width: 2px;
+  height: 23px;
+}
+
+/* Master Button */
+.action-master-button {
+  width: 50px; /* Increase size for visibility */
+  height: 50px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 16px; /* Adjust font size to fit nicely */
+  cursor: pointer;
+}
+
+/* Optional hover */
+.master-button:hover {
+  background-color: #0056b3;
+}
+
+/* Inner text flow */
+.text-button-flow {
+  display: flex;
+  gap: 10px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+}
+#testi-items {
+  overflow: hidden;
+  width: 100%;
+}
+
+.testimonial-container {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial-style {
+  min-width: 100%; /* One card visible at a time */
+  box-sizing: border-box;
+  padding: 20px;
+}
+.action-master-button.active {
+  background-color: #001224;
+}
